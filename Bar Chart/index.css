@@ -1,0 +1,37 @@
+body {
+  background-color: #708090;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+  width: fit-content;
+  text-align: center;
+}
+
+#title {
+  margin: 0;
+  font-size: 44px;
+  font-weight: normal;
+}
+
+.bar:hover {
+  fill: rgba(255, 255, 255, 0.9)
+}
+
+#tooltip {
+  position: absolute;
+  background: white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.9);
+  padding: 10px;
+  pointer-events: none; 
+  opacity: 0; 
+  transition: opacity 0.2s; 
+}

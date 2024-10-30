@@ -1,0 +1,63 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: #fff;
+  padding: 20px;
+  width: fit-content;
+  text-align: center;
+  overflow: visible;
+}
+
+svg {
+  overflow: visible;
+}
+
+#title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.doping {
+  fill: rgb(31, 119, 180);
+}
+
+.no-doping {
+  fill: rgb(255, 127, 14);
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.8;
+}
+
+.axis-label {
+  font-size: 20px;
+  fill: black;
+}
+
+.chart-title {
+  fill: black;
+  font-size: 24px;
+}
+
+#tooltip {
+  position: absolute;
+  background: lightsteelblue;
+  padding: 10px;
+  border: 0px;
+  font: 12px sans-serif;
+  text-align: left;
+  opacity: 0;
+  border-radius: 8px;
+  pointer-events: none; 
+  transition: opacity 0.2s; 
+}
